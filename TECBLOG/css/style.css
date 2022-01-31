@@ -1,0 +1,138 @@
+/*retirar as formatações iniciais*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #e6e6e6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+/*Cabeçalho*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f7b600;
+    height: 140px;
+}
+
+#logo h1{
+    color: white;
+    font-size: 2.5em;
+}
+
+#logo span{
+    color: #4e4e4e;
+}
+
+header nav{
+    display: flex;
+    gap: 16px;
+}
+
+nav a{
+    color: white;
+    padding: 8px 12px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #f7b600;
+}
+
+/*início do meio da página.*/
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.div_postagem{
+    width: 660px;
+}
+
+.postagem{
+    margin: 0 0 20px 0;
+    padding: 10px;
+    background: white;
+    max-width: 660px;
+}
+.postagem h2{
+    font-size: 1.5em;
+    color: #f7b600;
+}
+
+.postagem h3{
+    font-weight: 200;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.postagem a{
+    color: #f7b600;
+}
+
+.postagem a:hover{
+    text-decoration: underline;
+}
+
+/*Barra lateral (aside) da página*/
+
+aside{
+    width: 240px;
+    height: 300px;
+}
+
+aside section{
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+aside section p{
+    font-size: 0.8em;
+}
+
+aside section h2{
+    padding: 3px;
+    font-size: 1.16em;
+    color: #565656;
+    background-color: #ccc;
+
+}
+
+aside section a{
+    color: #f7b600;
+    display: block;
+    padding: 5px;
+}
+
+aside section a:hover{
+    text-decoration: underline;
+}
+
+/*Rodapé da página*/
+
+footer{
+    width: 920px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 20px;
+}
